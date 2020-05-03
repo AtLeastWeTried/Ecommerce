@@ -4,16 +4,17 @@ body {
     padding: 0;
     margin: 0;
 }
-.middle {
-    margin: auto;
-    margin-top: 200px;
-    display: flex;
+.frow {
+    margin: 0 auto;
+    margin-top: 250px;
     width: 1200px;
     height: 350px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 20px;
+}
+.rows {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 350px;
 }
 .annou {
     margin: 20px;
