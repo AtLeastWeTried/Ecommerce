@@ -1,1 +1,3 @@
-const an1 = document.getElementById('an1');
+function goBuyPage() {
+    alert('oi');
+}

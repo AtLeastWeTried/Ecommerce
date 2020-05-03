@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./src/styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -12,7 +12,7 @@
         <h1>OLX</h1>
     </header>
     <section class="frow">
-        <span style="display: flex; margin: 0 30px; "><h2>TRENDING</h2></span>
+        <div style="margin: 0 30px; "><h2>TRENDING</h2></div>
         <div id="ads"></div>
             <div class="annou" id="an1">
                 <img src="./src/assets/images/product01.jpg" alt="Image not found" width="200px">
@@ -45,15 +45,17 @@
         </div>
     </section>
     <section class="rows">
-        <span style="display: flex; margin: 0 30px; "><h2>SMARTPHONES</h2></span>
+        <div style="margin: 0 30px; "><h2>SMARTPHONES</h2></div>
         <div id="ads"></div>
-            <div class="annou" id="an5">
-                <img src="./src/assets/images/product05.webp" alt="Image not found" width="200px">
-                <div class="desc">
-                    Galaxy S10
-                    <var>US$ 800,00</var>
+            <a href="./src/pages/product01.html">
+                <div class="annou" id="an5" onclick="goBuyPage()">
+                    <img src="./src/assets/images/product05.webp" alt="Image not found" width="200px">
+                    <div class="desc">
+                        Galaxy S10
+                        <var>US$ 800,00</var>
+                    </div>
                 </div>
-            </div>
+            </a>
             <div class="annou" id="an6">
                 <img src="./src/assets/images/product06.png" alt="Image not found" width="200px">
                 <div class="desc">
@@ -77,5 +79,6 @@
             </div>
         </div>
     </section>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>
