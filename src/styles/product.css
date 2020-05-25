@@ -43,3 +43,19 @@
 .announcement {
     margin-left: 200px;
 }
+
+.desc {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 400px;
+    padding: 10px 10px;
+    margin-left: 200px;
+}
+
+.smallDesc {
+    font-size: 20px;
+    float: right;
+}
